@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Mail, Phone, Globe, Linkedin, Calendar, Award, Briefcase, GraduateCap, Star, Edit3, Plus, ExternalLink } from 'lucide-react';
+import { MapPin, Mail, Phone, Globe, Linkedin, Calendar, Award, Briefcase, GraduationCap as GraduateCap, Star, CreditCard as Edit3, Plus, ExternalLink } from 'lucide-react';
 
 const Profile: React.FC = () => {
   const [isEditing, setIsEditing] = useState(false);
@@ -201,7 +201,7 @@ const Profile: React.FC = () => {
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-xl font-semibold text-gray-900 flex items-center gap-2">
-                  <GraduateCap size={24} className="text-purple-600" />
+                  <GraduateCapCap size={24} className="text-purple-600" />
                   Pendidikan
                 </h2>
                 <button className="text-purple-600 hover:text-purple-700 flex items-center gap-1">

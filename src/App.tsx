@@ -6,6 +6,7 @@
 +import Profile from './dashboard/pages/Profile';
 
  function HomePage() {
+ }
 @@ .. @@
            <Route path="escrow-contract" element={<FeaturePlaceholder title="Kontrak Escrow" />} />
            <Route path="impact-dashboard" element={<FeaturePlaceholder title="Dasbor Dampak" />} />
